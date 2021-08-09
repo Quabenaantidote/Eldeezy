@@ -1,17 +1,21 @@
 #include <iostream>
 
 using namespace std;
-
-int main()
-{
-   int y;
+int addtwoNums(){
+    int y;
    int x;
-   int sum;
+   int z;
 
    y = 4 ;
    x = 30 ;
-   sum = x + y ;
-   cout << sum ;
+   z = x + y ;
+   cout << z ;
 
+return z;
+}
+int main()
+{
+
+    addtwoNums() ;
         return 0;
 }
